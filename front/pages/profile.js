@@ -11,6 +11,8 @@ import NicknameEditForm from '../components/NicknameEditForm';
 import FollowList from '../components/FollowList';
 import { LOAD_MY_INFO_REQUEST } from '../reducers/user';
 import wrapper from '../store/configureStore';
+
+// 백유알엘 가져오기
 import { backUrl } from '../config/config';
 
 const fetcher = (url) => axios.get(url, { widthCredentials: true }).then((result) => result.data);
